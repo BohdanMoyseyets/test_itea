@@ -327,8 +327,8 @@ h1 span {
     line-height: normal;
     letter-spacing: 3.5px;
     text-transform: uppercase;
-
     text-align: center;
+    margin-top: 150px;
 }
 
 .section_subtitle {
@@ -391,4 +391,106 @@ h1 span {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+.text_left {
+    text-align: left;
+}
+
+.width_580 {
+    width: 580px;
+}
+
+.slider {
+    display: flex;
+    gap: 40px;
+}
+
+.menu_card {
+    width: 33.3333333%;
+}
+
+.menu_card_content {
+    position: relative;
+    border-radius: 40px;
+    background: #FFF;
+    box-shadow: 2px 9px 42px 0px rgba(0, 0, 0, 0.08);
+    padding: 38px 45px;
+}
+
+.manu_cart_whishlist {
+    position: absolute;
+    border-radius: 0px 37.5px 0px 42.5px;
+    background: #39DB4A;
+    width: 87px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 0;
+}
+
+.menu_card_content_img {
+    text-align: center;
+}
+.menu_card_content_img img{
+    width: 276px;
+    height: auto;
+}
+
+.menu_card_content_title {
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 25px;
+    margin-bottom: 19px;
+}
+
+.menu_card_content_desc {
+    color: #555;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.menu_card_content_bottom_line {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+    align-items: center;
+}
+
+.menu_card_content_meal_price {
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.menu_card_content_meal_price::first-letter {
+    color: #FF6868;
+    font-size: 24px;
+}
+
+.menu_card_content_meal_rating {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.menu_card_content_meal_rating span {
+    color: #454545;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.menu_card_content_meal_rating img {
+    width: 24px;
+    height: 24px;
 }
