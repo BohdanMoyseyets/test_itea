@@ -780,8 +780,71 @@ h1 span {
     padding: 25px 60px;
     cursor: pointer;
 }
+
 .green-btn:hover {
     background: #2ba837;
 }
 
 .right {}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -18px;
+    margin-right: -18px;
+
+}
+
+.service-card {
+    width: 50%;
+    padding-right: 18px;
+    padding-left: 18px;
+    margin-bottom: 36px;
+}
+
+.service-card__content {
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 7px 12px 43px 0px rgba(0, 0, 0, 0.14);
+    padding: 40px 28px;
+    text-align: center;
+}
+
+.service-card__img {}
+
+.service-card__title {
+    margin: 24px auto;
+    color: #5FE26C;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.service-card__desc {
+    color: #90BD95;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    min-height: 72px;
+}
+
+.footer_wraper{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-col {
+    width: 23%;
+}
+.logo_block {
+}
+.first_logo {
+}
+.second_logo {
+}
+.footer-col__parag {
+    max-width: 302px;
+    margin-top: 46px;
+}
