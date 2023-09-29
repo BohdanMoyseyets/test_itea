@@ -1054,9 +1054,396 @@ footer.container {
     }
 }
 
-@media (max-width:1200px) {}
+@media (max-width:1200px) {
+    .container {
+        width: 960px;
+    }
 
-@media (max-width:992px) {}
+    .section_1_left_block {
+        margin-top: 120px;
+    }
+
+    h1 {
+        font-size: 47px;
+        line-height: 1.3;
+        padding-right: 40px;
+    }
+
+    .h1_subtitle {
+        width: 100%;
+        padding-right: 30px;
+        margin-top: 20px;
+        margin-bottom: 35px;
+        font-size: 24px;
+    }
+
+    .btns_bottom_line {
+        gap: 20px;
+    }
+
+    .green_btn {
+        height: 70px;
+        min-width: 195px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .btn_font {
+        font-size: 20px;
+    }
+
+    .btn_play_video {
+        width: 70px;
+        height: 70px;
+    }
+
+    .banner {
+        height: 600px;
+    }
+
+    .main_photo_bg {
+        width: 415px;
+        height: 413px;
+        top: 107px;
+        left: 50px;
+    }
+
+    .banner_card_meal {
+        width: 250px;
+
+    }
+
+    .banner_card_meal_left {
+        margin-right: 10px;
+    }
+
+    .banner_card_meal_left>img {
+        width: 70px;
+    }
+
+    .banner_card_meal_name {
+        font-size: 16px;
+    }
+
+    .section_title {
+        margin-top: 80px;
+    }
+
+    .mg-t-150 {
+        margin-top: 80px;
+    }
+
+    .margin-fix {
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+
+    .category {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .category__card {
+        width: 48%;
+        height: 280px;
+        margin-bottom: 20px;
+    }
+
+    .section_subtitle {
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+
+    .slider {
+        gap: unset;
+        justify-content: space-between;
+    }
+
+    .menu_card_content_img img {
+        width: 210px;
+    }
+
+    .menu_card {
+        width: 32%;
+    }
+
+    .menu_card_content_title {
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .menu_card_content_desc {
+        font-size: 18px;
+    }
+
+    .section_4 {
+        margin-top: 80px;
+    }
+
+    .photo {
+        height: 544px;
+    }
+
+    .photo__img {
+        height: 100%;
+    }
+
+    .photo__bg {
+        width: 398px;
+        height: 314px;
+    }
+
+    .photo__frame {
+        left: 191px;
+    }
+
+    .mg-t-130 {
+        margin-top: 0px;
+    }
+
+    .right .margin-fix {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .right__parag {
+        margin-bottom: 20px;
+    }
+
+    .feedback {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .section_5 {
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+
+    .mg-t-50 {
+        margin-top: 0px;
+    }
+
+    .left .margin-fix {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .left__parag {
+        margin-bottom: 40px;
+        padding-right: 20px;
+    }
+
+
+    .service-card__title {
+        font-size: 17px;
+    }
+
+    .service-card__desc {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:992px) {
+    .container {
+        width: 720px;
+    }
+    .section_1, .section_5, .section_4 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section_1>div {
+        width: 100%;
+    }
+
+    .section_1_left_block {
+        margin-top: 60px;
+    }
+
+    h1 {
+        font-size: 47px;
+        line-height: 1.3;
+        padding-right: 40px;
+    }
+
+    .h1_subtitle {
+        width: 100%;
+        padding-right: 30px;
+        margin-top: 20px;
+        margin-bottom: 35px;
+        font-size: 24px;
+    }
+
+    .btns_bottom_line {
+        gap: 20px;
+    }
+
+    .green_btn {
+        height: 70px;
+        min-width: 195px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .btn_font {
+        font-size: 20px;
+    }
+
+    .btn_play_video {
+        width: 70px;
+        height: 70px;
+    }
+
+    .banner {
+        height: 600px;
+    }
+
+    .main_photo_bg {
+        width: 415px;
+        height: 413px;
+        top: 107px;
+        left: 50px;
+    }
+
+    .banner_card_meal {
+        width: 250px;
+
+    }
+
+    .banner_card_meal_left {
+        margin-right: 10px;
+    }
+
+    .banner_card_meal_left>img {
+        width: 70px;
+    }
+
+    .banner_card_meal_name {
+        font-size: 16px;
+    }
+
+    .section_title {
+        margin-top: 80px;
+    }
+
+    .mg-t-150 {
+        margin-top: 80px;
+    }
+
+    .margin-fix {
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+
+    .category {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .category__card {
+        width: 48%;
+        height: 280px;
+        margin-bottom: 20px;
+    }
+
+    .section_subtitle {
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+
+    .slider {
+        gap: unset;
+        justify-content: space-between;
+    }
+
+    .menu_card_content_img img {
+        width: 210px;
+    }
+
+    .menu_card {
+        width: 32%;
+    }
+
+    .menu_card_content_title {
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .menu_card_content_desc {
+        font-size: 18px;
+    }
+
+    .section_4 {
+        margin-top: 80px;
+    }
+
+    .photo {
+        height: 544px;
+    }
+
+    .photo__img {
+        height: 100%;
+    }
+
+    .photo__bg {
+        width: 398px;
+        height: 314px;
+    }
+
+    .photo__frame {
+        left: 191px;
+    }
+
+    .mg-t-130 {
+        margin-top: 0px;
+    }
+
+    .right .margin-fix {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .right__parag {
+        margin-bottom: 20px;
+    }
+
+    .feedback {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .section_5 {
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+
+    .mg-t-50 {
+        margin-top: 0px;
+    }
+
+    .left .margin-fix {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .left__parag {
+        margin-bottom: 40px;
+        padding-right: 20px;
+    }
+
+
+    .service-card__title {
+        font-size: 17px;
+    }
+
+    .service-card__desc {
+        font-size: 16px;
+    }
+}
 
 @media (max-width:767px) {}
 
