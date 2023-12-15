@@ -134,10 +134,10 @@ console.log(arrayCompare(firstArray, thirdArray));
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 3,
     spaceBetween: 30,
-    autoplay: {
-        delay: 3500,
-        disableOnInteraction: false,
-      },
+    // autoplay: {
+    //     // delay: 3500,
+    //     // disableOnInteraction: false,
+    //   },
     loop: true,
     pagination: {
         el: ".swiper-pagination",
@@ -164,4 +164,38 @@ var swiper = new Swiper(".mySwiper", {
           spaceBetween: 20
         }
       }
+});
+var mySwiper1 = new Swiper(".mySwiper1", {
+    slidesPerView: 3,
+    spaceBetween: 40,
+    // autoplay: {
+    //     // delay: 3500,
+    //     // disableOnInteraction: false,
+    //   },
+    // loop: true,
+    pagination: {
+        el: ".swiper-pagination1",
+        // clickable: true
+    },
+    navigation: {
+        nextEl: ".swiper-button-next1",
+        prevEl: ".swiper-button-prev1",
+    },
+    // breakpoints: {
+    //     // when window width is >= 320px
+    //     420: {
+    //       slidesPerView: 1,
+    //       spaceBetween: 10
+    //     },
+    //     // when window width is >= 480px
+    //     780: {
+    //       slidesPerView: 2,
+    //       spaceBetween: 10
+    //     },
+    //     // when window width is >= 640px
+    //     1140: {
+    //       slidesPerView: 3,
+    //       spaceBetween: 20
+    //     }
+    //   }
 });
